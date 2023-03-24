@@ -49,3 +49,40 @@
     font-weight: bold;
     color: grey;
 }
+
+
+/**************************************** Overons CSS ***********************************/
+
+.informatie {
+
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.informatie h1 {
+    color: #00b28b;
+}
+
+.card {
+    margin-left: 30%;
+    width: 18rem;
+  }
+
+  .card2 {
+    float: left;
+    width: 18rem;
+  }
+
+
+
+/**************************************** Recepten CSS **************************/
+
+.h4 {
+
+    margin-left: 50%;
+
+}
+
