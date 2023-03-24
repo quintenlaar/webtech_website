@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+  }
+  
+.row {
+    display: flex;
+    margin: 5%
+  }
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+.profile {
+    width: 25px;
+    height: 25px;
+    }
+
+#carouselExampleIndicators {
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.bottom_info {
+    display: flex;
+    align-items: stretch;
+    background-color: grey;
+    margin-bottom: 0px;
+    padding: 30px;
+    background-image: linear-gradient(grey, black);
+    color: lightgrey;
+}
+
+.floating_div {
+    margin: 50px;
+}
+
+.info {
+    list-style: None;
+}
+
+.info a {
+    color: inherit;
+}
+
+.header {
+    font-weight: bold;
+    color: grey;
+}

@@ -1,0 +1,25 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box div {
+    width: 30%;
+    margin: 5%;
+    background-color: whitesmoke;
+  }
+
+  #flexwrapper  {
+    box-shadow: 5px 5px 5px black;
+  }
+
+  .box .data {
+    border-style: none;
+    margin: 20px;
+  }
+
+  .profile {
+    width: 25px;
+    height: 25px;
+    }
