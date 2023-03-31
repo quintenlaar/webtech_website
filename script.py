@@ -54,6 +54,31 @@ def database():
 def gelukt():
     return render_template("gelukt.html")
     
+# Recepten page
+@app.route('/recepten')
+def recepten():
+    return render_template('recepten.html')
+
+
+# contact page
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
+
+# Over ons page
+@app.route('/overons')
+def overons():
+    return render_template('overons.html')
+
+# Over ons page
+@app.route('/overscherm')
+def overscherm():
+    return render_template('overscherm.html')
+
+# Over de eigenaren page
+@app.route('/eigenaar')
+def eigenaar():
+    return render_template('overeigenaar.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
